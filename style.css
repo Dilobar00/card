@@ -1,0 +1,136 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.d_flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container {
+    min-width: 1140px;
+    margin: 0 auto;
+    padding: 0 60px;
+}
+
+.header {
+    margin-top: 36px;
+    justify-content: space-evenly;
+}
+
+
+.flex {
+    display: flex;
+}
+
+.margn {
+    margin-left: 200px;
+    margin-right: 200px;
+    justify-content: space-between;
+}
+
+.hero_img {
+    margin: 44px auto 167px auto;
+}
+
+.card_ending {
+    border-radius: 16px;
+    background: var(--5, #FFF);
+    box-shadow: 0px 0px 70px 0px rgba(138, 138, 138, 0.10);
+    width: 1400px;
+    height: 180px;
+    flex-shrink: 0;
+    margin-top: 160px;
+    display: flex;
+    margin-bottom: 160px;
+    padding: 0px;
+    align-items: center;
+    padding: 20px;
+}
+
+.main_cards {
+    display: flex;
+    padding: 100px 100px;
+    gap: 60px;
+}
+
+.main_card_subtitle {
+    color: var(--4, #FFF);
+    font-family: Gilroy;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    flex-wrap: wrap;
+    padding-right: 150px;
+}
+
+.calculate {
+    width: 1400px;
+    height: 270px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: var(--5, #FFF);
+    box-shadow: 0px 0px 70px 0px rgba(138, 138, 138, 0.10);
+    justify-content: space-between;
+    padding: 46px;
+    margin-bottom: 80px;
+}
+
+.btn_title {
+    margin-top: 40px;
+}
+
+.deliver_option {
+    width: 1400px;
+    height: 104px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: var(--5, #FFF);
+    box-shadow: 0px 0px 70px 0px rgba(138, 138, 138, 0.10);
+    justify-content: space-between;
+    display: inline-block;
+    gap: 50px;
+    padding: 20px;
+    align-items: center;
+    display: inline-block;
+}
+
+.card_text {
+    color: var(--1, #1F2428);
+    font-family: Gilroy;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    text-transform: uppercase;
+    padding: 40px;
+}
+
+.subtitle {
+    margin-right: 500px;
+}
+
+.card {
+    width: 300px;
+    height: 250px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: var(--5, #FFF);
+    box-shadow: 0px 0px 70px 0px rgba(138, 138, 138, 0.10);
+    padding: 60px;
+    margin: 50px auto 80px auto;
+    justify-content: space-between;
+}
+
